@@ -1,17 +1,13 @@
 ## ZkSync L2 Restaking
 
-
-## Dev Documentation
-
-Install ZkSync foundry:
-https://foundry-book.zksync.io/getting-started/installation
+Install ZkSync foundry: https://foundry-book.zksync.io/getting-started/installation
 
 list all foundry versions installed:
 ```
 foundryup --list
 ```
 
-Switch to zksync's foundry:
+Then switch to zksync's foundry:
 ```
 foundryup --use foundry_zksync_v0.0.11
 ```
@@ -25,19 +21,15 @@ forge --version
 # Build Profile: release
 ```
 
-Then run:
-```
-pnpm install
-```
-to install Hardhat and related ZkSync dependencies
+Then run `pnpm install` to install Hardhat and related ZkSync dependencies
 
+We won't use hardhat, just foundry
 
 ### Build
 
 ```shell
 forge build
 ```
-
 
 ### Deploy
 

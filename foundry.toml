@@ -38,6 +38,3 @@ remappings = [
 [rpc_endpoints]
 treasureTopaz = "https://rpc.topaz.treasure.lol"
 treasureMainnet = "https://rpc.treasure.lol"
-
-[etherscan]
-treasureTopaz = { key = "${ETHERSCAN_API_KEY}" }
