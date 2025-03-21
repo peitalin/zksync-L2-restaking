@@ -32,7 +32,12 @@ remappings = [
   "lib/openzeppelin-contracts-upgradeable:@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts",
   "lib/openzeppelin-contracts-upgradeable:@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts",
   "lib/eigenlayer-contracts:@openzeppelin/contracts-upgradeable/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable-v4.9.0",
-  "lib/eigenlayer-contracts:@openzeppelin/contracts/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts"
+  "lib/eigenlayer-contracts:@openzeppelin/contracts/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts",
+
+  # Added more explicit remappings for verification
+  "@openzeppelin/contracts/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts/",
+  "@openzeppelin/contracts/proxy/beacon/IBeacon.sol=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts/proxy/beacon/IBeacon.sol",
+  "@openzeppelin/contracts/utils/math/Math.sol=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts/utils/math/Math.sol"
 ]
 
 [rpc_endpoints]
