@@ -21,8 +21,6 @@ forge --version
 # Build Profile: release
 ```
 
-Then run `pnpm install` to install Hardhat and related ZkSync dependencies
-
 We won't use hardhat, just foundry
 
 ### Build

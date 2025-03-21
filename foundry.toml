@@ -25,19 +25,12 @@ remappings = [
   "@eigenlayer-contracts=lib/eigenlayer-contracts/src/contracts",
   # Note: We use OpenZeppelin v4.9 to deploy EigenLayer contracts (as EigenLayer does)
   "@openzeppelin-v4-contracts/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts/",
-  # "@openzeppelin/=node_modules/@openzeppelin/",
-  # "@openzeppelin-v5-contracts/=node_modules/@openzeppelin/contracts/",
   # Context dependent remappings to avoid conflicts
-  # enable for foundry deployment, disable for hardhat deployment
+  # enable for foundry deployment, disable for hardhat deployment (doesn't work with hardhat)
   "lib/openzeppelin-contracts-upgradeable:@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts",
   "lib/openzeppelin-contracts-upgradeable:@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts",
   "lib/eigenlayer-contracts:@openzeppelin/contracts-upgradeable/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable-v4.9.0",
   "lib/eigenlayer-contracts:@openzeppelin/contracts/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts",
-
-  # Added more explicit remappings for verification
-  "@openzeppelin/contracts/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts/",
-  "@openzeppelin/contracts/proxy/beacon/IBeacon.sol=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts/proxy/beacon/IBeacon.sol",
-  "@openzeppelin/contracts/utils/math/Math.sol=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts/utils/math/Math.sol"
 ]
 
 [rpc_endpoints]
