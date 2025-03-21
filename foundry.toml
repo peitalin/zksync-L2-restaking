@@ -26,7 +26,6 @@ remappings = [
   # Note: We use OpenZeppelin v4.9 to deploy EigenLayer contracts (as EigenLayer does)
   "@openzeppelin-v4-contracts/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/contracts/",
   # Context dependent remappings to avoid conflicts
-  # enable for foundry deployment, disable for hardhat deployment (doesn't work with hardhat)
   "lib/openzeppelin-contracts-upgradeable:@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts",
   "lib/openzeppelin-contracts-upgradeable:@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts",
   "lib/eigenlayer-contracts:@openzeppelin/contracts-upgradeable/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable-v4.9.0",

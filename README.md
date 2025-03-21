@@ -23,6 +23,16 @@ forge --version
 
 We won't use hardhat, just foundry
 
+
+Then install specific lib dependencies:
+```
+# CCIP v2.17.0
+forge install https://github.com/smartcontractkit/ccip@v2.17.0-ccip1.5.16
+
+# Eigenlayer v1.3.0
+forge install git@github.com/Layr-Labs/eigenlayer-contracts@v1.3.0
+```
+
 ### Build
 
 ```shell
